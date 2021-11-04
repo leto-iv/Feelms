@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0FAF7;
+}
+
+.navbar {
+    background-color: #154A40;
+
+    .navbar-brand {
+        font-size: 20px/25px;
+        color: #FFE657;
+    }
+
+    .nav-link {
+        color: #F0FAF7;
+        font-weight: 400;
+    }
+
+    * > a:hover {
+        color: #36C2A8;
+    }
+
+    .btn {
+        background-color: #36C2A8;
+        font-size: 16px/22px;
+    }
+}
+
+.hero-section .container-fluid {
+    background-color: #154A40;
+    color: #F0FAF7;
+    h1 {
+        font-weight: bold;
+        font-size: 56px/63px;
+    }
+    p {
+       font-size: 16px/21px; 
+       color: #F0FAF7;
+    }
+    input {
+        font-size: 16px/22px;
+        color: #A3A08E;
+    }
+    #button-addon2 {
+        background-color: #FFE657;
+    }
+    .col-3 {
+        font-size: 56px;
+    }
+}
