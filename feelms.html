@@ -63,7 +63,7 @@
               </div>
               <div>
                 <div class="input-group mb-3 w-75">
-                  <input type="text" class="form-control border-0 rounded-0 ps-3 py-2 me-3" placeholder="Happy, worried, 💃" aria-label="Happy, worried, 💃" aria-describedby="button-addon2">
+                  <input id="searchBar" type="text" class="form-control border-0 rounded-0 ps-3 py-2 me-3" placeholder="Happy, worried, 💃" aria-label="Happy, worried, 💃" aria-describedby="button-addon2">
                   <button class="btn rounded-circle" type="button" id="button-addon2"><svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                     <rect id="Area" width="20" height="20" fill="#3d7a5d" opacity="0"/>
                     <g id="Icon-2" data-name="Icon" transform="translate(1.29 2.499)">
@@ -99,22 +99,45 @@
           </div>
         </div>
     </section>
-
- <!-- Content -->
-
+<!-- Mood of the day -->
     <section>
-      <div class="card w-50 justify-content-center m-5 bg-transparent border-0">
-        <div class="card-body justify-content-center">
-          Por encontrar un beso tuyo,
-          <br>
-          ¿qué daría yo?
-          <br>
-          ¡Un beso errante de tu boca
-          <br>
-          muerta para el amor!
+      <div id="root" class="card text-center m-5 bg-transparent border-0">
+        <div class="card-header bg-transparent border-0">
+          Mood of the day
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Wide Eyed 🤩</h5>
+          <p class="card-text">Get a random, but carefuly curated recommendation</p>
+          <a id="randomMood" href="#" class="btn btn-primary rounded-pill">Awe me <svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <rect id="Area" width="20" height="20" fill="#FFE657" opacity="0"/>
+            <g id="Icon-2" data-name="Icon" transform="translate(1.29 2.499)">
+              <path id="Path" d="M16.667,5,7.5,14.167,3.333,10" transform="translate(-1.29 -2.499)" fill="none" stroke="#154a40" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+            </g>
+          </svg></a>
         </div>
       </div>
     </section>
+
+ <!-- Content -->
+
+    <!-- <section>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     -->
+    <script src="./data.js"></script>
     <script src="./app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

@@ -1,4 +1,15 @@
-var films = ['Little Miss Sunshine','Grave of the Fireflies','Interestellar','About Time']
+const searchBar = document.getElementById("searchBar");
+const feelms = ["happy", "sad", "surprised", "relaxed"];
 
-var feels = ['Happy','Sad','Surpised','Relaxed']
+console.log(searchBar);
+searchBar.addEventListener("keyup", e => {
+    const searchString = e.target.value;
+    const filteredFilms = films.filter(film => {
+      return (
+        film.title.includes(searchString) ||
+        film.feel.includes(searchString)
+      );
+    });
+    displayCharacters(filteredFilms);
+  });
 
